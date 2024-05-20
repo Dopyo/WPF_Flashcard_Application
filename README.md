@@ -13,7 +13,7 @@ This WPF application leverages Google's Gemini 1.5 Flash model to create Chinese
 
 * **NET 7:**  Ensure you have NET 7 installed on your system.
 * **Visual Studio:**  This project is built using Visual Studio. You can download the free Community edition from [https://visualstudio.microsoft.com/](https://visualstudio.microsoft.com/).
-* **Google Gemini API Key:** Obtain an API key for Google's Gemini Model from [[https://developers.generativeai.google/](https://developers.generativeai.google/)](https://aistudio.google.com/app/apikey). Paste your key into the code as indicated in the `MainWindow.xaml.cs` file.
+* **Google Gemini API Key:** Obtain an API key for Google's Gemini Model from https://aistudio.google.com/app/apikey. Paste your key into the code as indicated in the `MainWindow.xaml.cs` file.
 
 ### Setup
 
