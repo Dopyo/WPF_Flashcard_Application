@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="800" Width="800">
+    <StackPanel>
+        <Button Name="myButton" Click="myButton_Click">Run</Button>
+        <TextBox Name="myWord" FontFamily="KaiTi" FontSize="30" Visibility="Hidden"></TextBox>
+        <TextBox Name="myText" TextWrapping="Wrap" FontFamily="KaiTi" FontSize="30" IsReadOnly="True">After you press run, guess the character/s that are associated with the given meaning.</TextBox>
+        <Button Name="myCheck" Click="myCheck_Click"> Reveal</Button>
+        <TextBox Name="myReveal" TextWrapping="Wrap" FontFamily="KaiTi" FontSize="30"> </TextBox>
+        
+    </StackPanel>
+</Window>
