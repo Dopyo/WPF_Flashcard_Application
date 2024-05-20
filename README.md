@@ -24,7 +24,7 @@ This WPF application leverages Google's Gemini Pro model to create Chinese flash
 
 1. **Build and Run:** Build the project in Visual Studio.
 2. **Generate Flashcard:** Click the "Run" button in the application to generate a new flashcard with a random HSK 1 word and a Chinese sentence using that word.
-3. **Reveal Translation:** Click the "Check" button to reveal the English translation and pinyin of the Chinese sentence.
+3. **Reveal Translation:** Click the "Reveal" button to reveal the English translation and pinyin of the Chinese sentence.
 
 ### Customization
 
