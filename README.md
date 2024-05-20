@@ -32,4 +32,4 @@ This WPF application leverages Google's Gemini Pro model to create Chinese flash
 * **Word List Source:** Adapt the code to read from alternative word list formats or sources (e.g., databases, online APIs).
 * **Sentence Complexity:**  Experiment with different prompts within the `CreateRequestBody` method to control the complexity or style of the generated sentences.
 
-
+![](https://github.com/Dopyo/WPF_Flashcard_Application/blob/main/WPFGIF.gif)
