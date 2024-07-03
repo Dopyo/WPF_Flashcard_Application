@@ -31,7 +31,13 @@ namespace WpfApp1
 
         private async void myButton_Click(object sender, RoutedEventArgs e)
         {
+            if (ApiKey.Equals(""))
+            {
+                myText.Text = "APIKEY EMPTY";
+                return;
+            }
             myText.Text = "";
+            myText.Visibility = Visibility.Hidden;
             var lineCount = File.ReadLines(@"hsk/HSK 1.txt").Count();
             myWord.Text = File.ReadLines("hsk/HSK 1.txt").Skip(random.Next(1, lineCount-1)).Take(1).First();
             var requestBody = CreateRequestBody("Write a Chinese sentence with the word: " + myWord.Text + 
